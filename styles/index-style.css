@@ -1,0 +1,62 @@
+/* Banner */
+.banner {
+    background-image: url('https://via.placeholder.com/1920x500');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Navbar Customization */
+.navbar-custom {
+    background-color: #2c3e50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .nav-link {
+    color: #ecf0f1;
+    font-weight: 500;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+    color: #1abc9c;
+}
+
+/* Content Styling */
+.content {
+    padding: 50px 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.content p, .content ul {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #34495e;
+}
+
+.content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.content ul li {
+    margin-bottom: 10px;
+}
+
+.content h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 30px;
+    color: #16a085;
+}
